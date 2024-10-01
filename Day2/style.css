@@ -1,0 +1,32 @@
+body{
+    vertical-align: middle;
+}
+
+.fitems {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: teal;
+    font-size: 20px;
+    border: 10px;
+    border-color: salmon;
+    border-style: double;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+}
+.fcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#item1{
+    order:2;
+}
+.item3{
+    order:4;
+}
