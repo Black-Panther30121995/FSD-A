@@ -1,0 +1,25 @@
+.page{
+    display: grid;
+    grid-template-rows: 80px 1fr 90px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 5px solid teal;
+}
+.home,.aboutUs,.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display:grid ;
+    grid-template-columns: 20% 60% 20%;
+}
+.written-content{
+    padding-top: 50px;
+}
