@@ -8,15 +8,19 @@ function display(){
 };
 display();
 
-document.querySelector('.js-login-but').addEventListener('click', ()=>{
+document.querySelector('.js-login-but').addEventListener('submit', ()=>{
     const username=document.querySelector('.js-username').value;
     const pass=document.querySelector('.js-password').value;
   
-    if(username === 'admin' && pass==='admin'){
+    /*if(username === 'admin' && pass==='admin'){
         document.querySelector('.js-result').innerHTML="Registration Successfull";
     }
     else{
         document.querySelector('.js-result').innerHTML="Invalid Login";
-    }
+    }*/
+   if(username.length<10 && username.length ===0)
+   {
+    document.querySelector('.js-result').innerHTML="Invalid Username";
+   }
 });
 
