@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="js-button">Click Here</button> 
+    <p></p>
+    <p></p>
+    <p></p>
+    <input class="tex" type="text" placeholder="type here....">
+    <p class="textCopy"></p>
+    <a href="#">Click Here</a>
+
+<script>
+    /*let x=confirm("Are you sure to log out");
+alert(x);
+*/
+
+/*
+let v=prompt("Enter your name:", "Shivani");
+alert(v);
+*/
+
+/*
+let disp=()=>{
+    console.log("Welcome to the function in js");
+};
+
+disp();
+*/
+
+/*
+let say =()=> console.log("This is a function in js");
+*/
+
+/*
+let sum=(x,y)=>{
+    return x+y;
+};
+console.log(sum(2,3));
+
+*/
+
+let handleKeyPress=(event)=>{
+    document.querySelector('.textCopy').textContent=event.target.value;
+}
+
+let myInput=document.querySelector('.tex');
+myInput.addEventListener('keydown',handleKeyPress);
+/*
+btn=document.querySelector('.js-button');
+btn.addEventListener('click',()=>{
+    display();
+});
+
+*/
+
+/*
+let p1=document.querySelectorAll('p')
+let display=()=>{
+    p1.forEach((ele)=>{
+        ele.innerHTML='updated';
+        ele.style.backgroundColor='blue';
+    })
+}
+
+const link=document.querySelector('a');
+let b=1
+if(b)
+{
+    link.setAttribute('href','https://www.youtube.com');
+    link.innerText='YouTube';
+    b=0;
+}
+else{
+    link.setAttribute('href','https://abes.ac.in');
+    link.innerText='ABES';
+    b=1;
+}
+*/
+/*
+let display=()=>{
+    const h1=document.createElement('h1');
+    h1.textContent="I am in a heading";
+
+    let b=document.body;
+    b.appendChild(h1);
+}
+*/
+/*
+const newDiv=document.createElement('div');
+newDiv.textContent='This is new div';
+
+let b=document.querySelector('body');
+b.appendChild(newDiv)
+*/
+
+/*
+html='<div><h3>This is a heading from JS</h3></div>';
+document.body.innerHTML=html;
+*/
+</script>
+</body>
+</html>
