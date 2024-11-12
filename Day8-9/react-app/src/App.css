@@ -1,0 +1,13 @@
+#disp{
+    background-color: rgb(204, 156, 156);
+    color: whitesmoke;
+    border: 10px ridge;
+}
+h1{
+    background-color: teal;
+    font-size: 20px;
+}
+h2{
+    background-color: blueviolet;
+    font-size: 16px;
+}
