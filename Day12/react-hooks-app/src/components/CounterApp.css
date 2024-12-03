@@ -1,0 +1,92 @@
+
+.count-app{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(162, 162, 212);
+    height: 400px;
+    width:300px;
+  }
+  .heading{
+   font-weight: 1000;
+   text-align: center;
+   color: white;
+  
+  }
+  .count{
+    border: 1px ridge rgb(232, 227, 227);
+    height:50px;
+    width:150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: black;
+  }
+  .count-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px ridge black;
+    width:150px;
+    height:200px;
+    background-color: white;
+  }
+  .Inc{
+    color: white;
+    background-color: rgb(13, 13, 85);
+    border: none;
+    border-radius: 3px;
+  
+    margin-top: 10px;
+    width:100%;
+    height:40px;
+    font-weight: 500;
+  
+  }
+  .Dec{
+    color: white;
+    background-color: rgb(67, 18, 18);
+    border: none;
+    border-radius: 3px;
+  
+    margin-top: 10px;
+    width:100%;
+    height:40px;
+    font-weight: 500;
+  
+  }
+  .Res{
+    color: white;
+    background-color: rgb(15, 4, 4);
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    width:100%;
+    height:40px;
+    font-weight: 500;
+  
+  }
+  .Increase{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    column-gap: 10px;
+    background-color: white;
+  }
